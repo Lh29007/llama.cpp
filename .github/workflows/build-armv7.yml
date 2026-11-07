@@ -2,6 +2,8 @@ name: build-armv7
 
 # Build ARMv7 (armeabi-v7a, 32 bits) binaries of llama.cpp with the Android NDK.
 # Never build AArch64 here.
+# The full build log is written to log.log at the repository root and pushed back
+# to the branch (commit marked [skip ci]).
 
 on:
   workflow_dispatch:
@@ -19,7 +21,7 @@ on:
       - armv7-build
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event_name }}
@@ -70,15 +72,26 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
+          ref: ${{ github.ref_name }}
+
+      - name: Initialiser log.log
+        run: |
+          {
+            echo "=== build-armv7 | variante ${{ matrix.variant }} | commit ${GITHUB_SHA} | run ${GITHUB_RUN_ID} ==="
+            date -u +"debut : %Y-%m-%dT%H:%M:%SZ"
+          } > log.log
 
       - name: 1. Verification de l'environnement
         run: |
-          uname -a
-          nproc
-          free -h
-          cmake --version
-          ninja --version
-          df -h /
+          set -o pipefail
+          {
+            uname -a
+            nproc
+            free -h
+            cmake --version
+            ninja --version
+            df -h /
+          } 2>&1 | tee -a log.log
 
       - name: Installer JDK 17
         uses: actions/setup-java@v5
@@ -93,15 +106,21 @@ jobs:
 
       - name: 2. Configuration Android NDK
         run: |
-          sdkmanager "ndk;${NDK_VERSION}"
-          echo "ANDROID_NDK=${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}" >> "$GITHUB_ENV"
-          ls "${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin" | grep -E "clang$|llvm-readelf|llvm-strip" || true
-          "${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" --version
+          set -o pipefail
+          {
+            sdkmanager "ndk;${NDK_VERSION}"
+            echo "ANDROID_NDK=${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}" >> "$GITHUB_ENV"
+            ls "${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin" | grep -E "clang$|llvm-readelf|llvm-strip" || true
+            "${ANDROID_SDK_ROOT}/ndk/${NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" --version
+          } 2>&1 | tee -a log.log
 
       - name: 3. Verification de la cible ARMv7
         run: |
-          echo "Valeurs par defaut du toolchain pour armeabi-v7a :"
-          grep -n -i "armv7\|mfpu\|NEON\|mfloat-abi" "${ANDROID_NDK}/build/cmake/android.toolchain.cmake" | head -60
+          set -o pipefail
+          {
+            echo "Valeurs par defaut du toolchain pour armeabi-v7a :"
+            grep -n -i "armv7\|mfpu\|NEON\|mfloat-abi" "${ANDROID_NDK}/build/cmake/android.toolchain.cmake" | head -60
+          } 2>&1 | tee -a log.log
 
       - name: Definir les options de la variante
         id: variant
@@ -125,39 +144,44 @@ jobs:
 
       - name: 4. Configuration CMake
         run: |
-          cmake -S . -B build -G Ninja \
-            -DCMAKE_MAKE_PROGRAM="$(command -v ninja)" \
-            -DCMAKE_TOOLCHAIN_FILE="${ANDROID_NDK}/build/cmake/android.toolchain.cmake" \
-            -DANDROID_ABI="${ANDROID_ABI}" \
-            -DANDROID_PLATFORM="${ANDROID_PLATFORM}" \
-            -DCMAKE_C_FLAGS="${{ steps.variant.outputs.cflags }}" \
-            -DCMAKE_CXX_FLAGS="${{ steps.variant.outputs.cflags }}" \
-            -DCMAKE_BUILD_TYPE=Release \
-            -DGGML_NATIVE=OFF \
-            -DGGML_OPENMP=OFF \
-            -DGGML_CUDA=OFF \
-            -DGGML_VULKAN=OFF \
-            -DGGML_OPENCL=OFF \
-            -DLLAMA_OPENSSL=OFF \
-            -DLLAMA_CURL=OFF \
-            -DLLAMA_BUILD_TESTS=OFF \
-            -DLLAMA_BUILD_EXAMPLES=OFF \
-            -DLLAMA_BUILD_TOOLS=ON \
-            -DLLAMA_BUILD_SERVER=ON \
-            -DLLAMA_BUILD_UI=OFF \
-            -DLLAMA_USE_PREBUILT_UI=OFF \
-            -DLLAMA_FATAL_WARNINGS=OFF
-          echo "Options de flottants generees :"
-          grep -rhoE "mfpu=[^ ]+|march=[^ ]+|mfloat-abi=[^ ]+" build --include=flags.make | sort | uniq -c
-          if [ "${{ matrix.variant }}" = "minimal" ] && grep -rq -- "-mfpu=neon" build --include=flags.make; then
-            echo "ERREUR : la variante minimale contient encore -mfpu=neon"
-            exit 1
-          fi
+          set -o pipefail
+          {
+            cmake -S . -B build -G Ninja \
+              -DCMAKE_MAKE_PROGRAM="$(command -v ninja)" \
+              -DCMAKE_TOOLCHAIN_FILE="${ANDROID_NDK}/build/cmake/android.toolchain.cmake" \
+              -DANDROID_ABI="${ANDROID_ABI}" \
+              -DANDROID_PLATFORM="${ANDROID_PLATFORM}" \
+              -DCMAKE_C_FLAGS="${{ steps.variant.outputs.cflags }}" \
+              -DCMAKE_CXX_FLAGS="${{ steps.variant.outputs.cflags }}" \
+              -DCMAKE_BUILD_TYPE=Release \
+              -DGGML_NATIVE=OFF \
+              -DGGML_OPENMP=OFF \
+              -DGGML_CUDA=OFF \
+              -DGGML_VULKAN=OFF \
+              -DGGML_OPENCL=OFF \
+              -DLLAMA_OPENSSL=OFF \
+              -DLLAMA_CURL=OFF \
+              -DLLAMA_BUILD_TESTS=OFF \
+              -DLLAMA_BUILD_EXAMPLES=OFF \
+              -DLLAMA_BUILD_TOOLS=ON \
+              -DLLAMA_BUILD_SERVER=ON \
+              -DLLAMA_BUILD_UI=OFF \
+              -DLLAMA_USE_PREBUILT_UI=OFF \
+              -DLLAMA_FATAL_WARNINGS=OFF
+            echo "Options de flottants generees :"
+            grep -rhoE "mfpu=[^ ]+|march=[^ ]+|mfloat-abi=[^ ]+" build --include=flags.make | sort | uniq -c
+            if [ "${{ matrix.variant }}" = "minimal" ] && grep -rq -- "-mfpu=neon" build --include=flags.make; then
+              echo "ERREUR : la variante minimale contient encore -mfpu=neon"
+              exit 1
+            fi
+          } 2>&1 | tee -a log.log
 
       - name: 5. Compilation
         run: |
+          set -o pipefail
+          echo "=== Compilation ===" | tee -a log.log
           # -k 0 : continue apres une cible en echec pour produire les autres executables.
-          cmake --build build --config Release -- -k 0 2>&1 | tee build-output.log
+          cmake --build build --config Release -- -k 0 2>&1 | tee -a log.log
 
       - name: Etat par cible
         if: always()
@@ -180,18 +204,22 @@ jobs:
       - name: 6. Verification ELF
         if: always()
         run: |
+          set -o pipefail
           READELF="${ANDROID_NDK}/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf"
           chmod +x ci/armv7/verify-elf.sh
           status=0
-          for t in $TARGETS; do
-            bin=$(find build -type f -name "$t" -perm -u+x | head -1)
-            if [ -z "$bin" ]; then
-              echo "Cible absente : $t"
-              status=1
-              continue
-            fi
-            ci/armv7/verify-elf.sh "$bin" "$READELF" || status=1
-          done
+          {
+            echo "=== Verification ELF ==="
+            for t in $TARGETS; do
+              bin=$(find build -type f -name "$t" -perm -u+x | head -1)
+              if [ -z "$bin" ]; then
+                echo "Cible absente : $t"
+                status=1
+                continue
+              fi
+              ci/armv7/verify-elf.sh "$bin" "$READELF" || status=1
+            done
+          } 2>&1 | tee -a log.log
           exit $status
 
       - name: 7. Tests des executables
@@ -199,7 +227,7 @@ jobs:
         run: |
           # Les binaires Android (bionic) ne se lancent pas sur le runner Ubuntu.
           # Le test de lancement reel se fait dans Termux : voir README-TERMUX.md et termux-test.sh.
-          echo "Test de lancement reel non execute sur le runner (bionic/Android)." | tee -a build-output.log
+          echo "Test de lancement reel non execute sur le runner (bionic/Android)." | tee -a log.log
 
       - name: 8. Archivage des resultats
         if: always()
@@ -233,12 +261,12 @@ jobs:
             echo "== $(basename "$f")" >> "$pkg/dependencies.txt"
             "$READELF" -d "$f" | grep NEEDED >> "$pkg/dependencies.txt" || true
           done
-          cp build-output.log "$pkg/build-log.txt"
+          cp log.log "$pkg/build-log.txt"
           (cd "$pkg" && find bin -type f -exec sha256sum {} \; > SHA256SUMS)
           if [ -n "$(ls -A "$pkg/bin")" ]; then
             (cd pkg && zip -r "../${ZIP_NAME}" "llama.cpp-armv7-${VARIANT}")
           fi
-          ls -la pkg "$pkg" "$pkg/bin" || true
+          ls -la pkg "$pkg" "$pkg/bin" | tee -a log.log || true
 
       - name: Publier les artifacts
         if: always()
@@ -247,6 +275,22 @@ jobs:
           name: armv7-${{ matrix.variant }}
           path: |
             ${{ steps.variant.outputs.zip }}
-            build-output.log
+            log.log
           if-no-files-found: warn
           retention-days: 14
+
+      - name: Commiter log.log sur la branche
+        if: always()
+        env:
+          VARIANT: ${{ matrix.variant }}
+        run: |
+          echo "fin : $(date -u +%Y-%m-%dT%H:%M:%SZ) | conclusion configure/build ci-dessus" >> log.log
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f log.log
+          if git diff --cached --quiet; then
+            echo "Pas de changement dans log.log"
+            exit 0
+          fi
+          git commit -m "ci(armv7): log du build ${VARIANT} [skip ci]"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
