@@ -168,10 +168,10 @@ jobs:
               -DLLAMA_BUILD_UI=OFF \
               -DLLAMA_USE_PREBUILT_UI=OFF \
               -DLLAMA_FATAL_WARNINGS=OFF
-            echo "Options de flottants generees :"
-            grep -rhoE "mfpu=[^ ]+|march=[^ ]+|mfloat-abi=[^ ]+" build --include=flags.make | sort | uniq -c
-            if [ "${{ matrix.variant }}" = "minimal" ] && grep -rq -- "-mfpu=neon" build --include=flags.make; then
-              echo "ERREUR : la variante minimale contient encore -mfpu=neon"
+            echo "Options FPU/ABI generees (build/build.ninja, generateur Ninja) :"
+            grep -ohE -- "-m(fpu|arch|float-abi)=[^ ]+" build/build.ninja | sort | uniq -c || true
+            if [ "${{ matrix.variant }}" = "minimal" ] && ! grep -q -- "-mfpu=vfpv3-d16" build/build.ninja; then
+              echo "ERREUR : la variante minimale n'a pas -mfpu=vfpv3-d16"
               exit 1
             fi
           } 2>&1 | tee -a log.log
