@@ -1,9 +1,9 @@
-=== build-armv7 | variante minimal | commit 665ab12b4fad128d07b88f26374428a879d345e9 | run 42403608609 ===
-debut : 2026-11-07T18:54:54Z
+=== build-armv7 | variante minimal | commit 92d9fa150ea6f85f0bebc4db840642b8605c498e | run 42403828148 ===
+debut : 2026-11-07T18:57:41Z
 Linux runnervm7aw5e 7.0.0-1017-azure #17~24.04.1-Ubuntu SMP PREEMPT Thu Sep 24 18:46:57 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 4
                total        used        free      shared  buff/cache   available
-Mem:            15Gi       998Mi        13Gi        45Mi       1.1Gi        14Gi
+Mem:            15Gi       1.0Gi        13Gi        43Mi       1.1Gi        14Gi
 Swap:          3.0Gi          0B       3.0Gi
 cmake version 3.31.6
 
@@ -154,7 +154,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KiRUMX/CMakeLists.txt:2 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -167,7 +167,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KiRUMX/CMakeLists.txt:2 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -181,7 +181,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KiRUMX/CMakeLists.txt:2 (project)
 
 
 -- Detecting C compiler ABI info - done
@@ -198,7 +198,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-6Kcc5J/CMakeLists.txt:2 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -211,7 +211,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-6Kcc5J/CMakeLists.txt:2 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -225,7 +225,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-6Kcc5J/CMakeLists.txt:2 (project)
 
 
 -- Detecting CXX compiler ABI info - done
@@ -248,7 +248,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-VolLMm/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -261,7 +261,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-VolLMm/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -275,7 +275,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-VolLMm/CMakeLists.txt:3 (project)
 
 
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
@@ -289,7 +289,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-tQZheg/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -302,7 +302,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-tQZheg/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -316,7 +316,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-tQZheg/CMakeLists.txt:3 (project)
 
 
 -- Check if compiler accepts -pthread - yes
@@ -336,7 +336,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zkcuDz/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -349,7 +349,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zkcuDz/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -363,7 +363,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zkcuDz/CMakeLists.txt:3 (project)
 
 
 -- Performing Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E - Failed
@@ -378,7 +378,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EhIs47/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -391,7 +391,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EhIs47/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -405,7 +405,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EhIs47/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_DOTPROD - Failed
@@ -419,7 +419,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-GIJsfE/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -432,7 +432,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-GIJsfE/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -446,7 +446,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-GIJsfE/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_SVE - Failed
@@ -460,7 +460,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ksbJfE/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -473,7 +473,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ksbJfE/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -487,7 +487,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ksbJfE/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_MATMUL_INT8 - Failed
@@ -501,7 +501,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KLDTPk/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -514,7 +514,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KLDTPk/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -528,7 +528,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KLDTPk/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_FMA - Failed
@@ -542,7 +542,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1HXzAh/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -555,7 +555,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1HXzAh/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -569,7 +569,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-1HXzAh/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_FP16_VECTOR_ARITHMETIC - Failed
@@ -583,7 +583,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-AGZ3bv/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -596,7 +596,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-AGZ3bv/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -610,13 +610,13 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-AGZ3bv/CMakeLists.txt:3 (project)
 
 
 -- Performing Test HAVE_SME - Failed
 -- Adding CPU backend variant ggml-cpu:  
 -- ggml version: 0.29.0
--- ggml commit:  665ab12
+-- ggml commit:  92d9fa1
 -- Looking for pthread_create in pthreads
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
   Compatibility with CMake < 3.10 will be removed from a future version of
@@ -627,7 +627,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8aKgwo/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -640,7 +640,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8aKgwo/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -654,7 +654,7 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8aKgwo/CMakeLists.txt:3 (project)
 
 
 -- Looking for pthread_create in pthreads - not found
@@ -668,7 +668,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
   to work with policies introduced by <max> or earlier.
 Call Stack (most recent call first):
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mGeJ7Z/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
@@ -681,7 +681,7 @@ CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/
 Call Stack (most recent call first):
   /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
   /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mGeJ7Z/CMakeLists.txt:3 (project)
 
 
 CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
@@ -695,42 +695,983 @@ Call Stack (most recent call first):
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
   /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
   /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
-  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mGeJ7Z/CMakeLists.txt:3 (project)
 
 
 -- Looking for pthread_create in pthread - not found
 -- Disabling MTMD_VIDEO because LLAMA_SUBPROCESS is OFF
 -- Generating embedded license file for target: llama-app
--- Configuring done (1.8s)
+-- Configuring done (1.7s)
 -- Generating done (0.1s)
 -- Build files have been written to: /home/runner/work/llama.cpp/llama.cpp/build
-Options de flottants generees :
+Options FPU/ABI generees (build/build.ninja, generateur Ninja) :
+    236 -march=armv7-a
+    236 -mfpu=vfpv3-d16
+=== Compilation ===
+[1/237] Building C object ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o
+[2/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o
+[3/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o
+[4/237] Building C object ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o
+[5/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o
+[6/237] Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o
+[7/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o
+[8/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o
+[9/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o
+[10/237] Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o
+[11/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o
+[12/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o
+[13/237] Building C object ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o
+[14/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o
+[15/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/ggml-backend-meta.cpp.o
+[16/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/tiled/tiled-kernel.cpp.o
+[17/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/tiled/tiled.cpp.o
+[18/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o
+[19/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o
+[20/237] Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o
+[21/237] Building CXX object ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o
+[22/237] Linking CXX shared library bin/libggml-base.so
+[23/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o
+[24/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o
+[25/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o
+[26/237] Building CXX object ggml/src/CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o
+[27/237] Building CXX object ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o
+[28/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o
+[29/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_8_cxx.cxx.o
+[30/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_9_cxx.cxx.o
+[31/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_10_cxx.cxx.o
+[32/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_7_cxx.cxx.o
+[33/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_6_cxx.cxx.o
+[34/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_4_cxx.cxx.o
+[35/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_5_cxx.cxx.o
+[36/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_3_cxx.cxx.o
+[37/237] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o
+[38/237] Linking CXX shared library bin/libggml-cpu.so
+[39/237] Linking CXX shared library bin/libggml.so
+[40/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_2_cxx.cxx.o
+[41/237] Building CXX object src/CMakeFiles/llama.dir/llama.cpp.o
+[42/237] Building CXX object src/CMakeFiles/llama.dir/llama-arch.cpp.o
+[43/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_0_cxx.cxx.o
+[44/237] Building CXX object src/CMakeFiles/llama.dir/llama-cparams.cpp.o
+[45/237] Building CXX object src/CMakeFiles/llama.dir/llama-batch.cpp.o
+[46/237] Building CXX object src/CMakeFiles/llama.dir/llama-adapter.cpp.o
+[47/237] Building CXX object src/CMakeFiles/llama.dir/llama-chat.cpp.o
+[48/237] Building CXX object src/CMakeFiles/llama.dir/Unity/unity_1_cxx.cxx.o
+[49/237] Building CXX object src/CMakeFiles/llama.dir/llama-hparams.cpp.o
+[50/237] Building CXX object src/CMakeFiles/llama.dir/llama-impl.cpp.o
+[51/237] Building CXX object src/CMakeFiles/llama.dir/llama-io.cpp.o
+[52/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o
+[53/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-dsa.cpp.o
+[54/237] Building CXX object src/CMakeFiles/llama.dir/llama-graph.cpp.o
+[55/237] Building CXX object src/CMakeFiles/llama.dir/llama-context.cpp.o
+[56/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-dsa-iswa.cpp.o
+[57/237] Building CXX object src/CMakeFiles/llama.dir/llama-grammar.cpp.o
+[58/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-msa.cpp.o
+[59/237] Building CXX object src/CMakeFiles/llama.dir/llama-memory.cpp.o
+[60/237] Building CXX object src/CMakeFiles/llama.dir/llama-memory-hybrid-iswa.cpp.o
+[61/237] Building CXX object src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o
+[62/237] Building CXX object src/CMakeFiles/llama.dir/llama-moe-cache.cpp.o
+[63/237] Building CXX object src/CMakeFiles/llama.dir/llama-mmap.cpp.o
+[64/237] Building CXX object src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o
+[65/237] Building CXX object src/CMakeFiles/llama.dir/llama-memory-hybrid-idx.cpp.o
+[66/237] Building CXX object src/CMakeFiles/llama.dir/llama-model-saver.cpp.o
+[67/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-dsv4.cpp.o
+[68/237] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o
+[69/237] Building CXX object src/CMakeFiles/llama.dir/llama-model-loader.cpp.o
+/home/runner/work/llama.cpp/llama.cpp/src/llama-model-loader.cpp:1107:57: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 4294967296 to 0 [-Wconstant-conversion]
+ 1107 |     constexpr size_t auto_min_size = 4ull * 1024 * 1024 * 1024;
+      |                      ~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~^~~~~~
+1 warning generated.
+[70/237] Building CXX object src/CMakeFiles/llama.dir/llama-quant.cpp.o
+/home/runner/work/llama.cpp/llama.cpp/src/llama-quant.cpp:44:62: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 8589934592 to 0 [-Wconstant-conversion]
+   44 | static const size_t LLAMA_QUANT_MAX_BUF_SIZE = 8ull*1024*1024*1024;
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~^~~~~
+1 warning generated.
+[71/237] Building CXX object vendor/hash/CMakeFiles/vendor-hash.dir/hash.cpp.o
+[72/237] Building CXX object src/CMakeFiles/llama.dir/llama-sampler.cpp.o
+[73/237] Building CXX object vendor/hash/CMakeFiles/vendor-hash.dir/sha1/sha1.c.o
+[74/237] Building C object vendor/hash/CMakeFiles/vendor-hash.dir/sha256/sha256.c.o
+[75/237] Building C object vendor/hash/CMakeFiles/vendor-hash.dir/xxhash/xxhash.c.o
+[76/237] Building CXX object src/CMakeFiles/llama.dir/llama-vocab.cpp.o
+[77/237] Linking CXX static library vendor/hash/libvendor-hash.a
+[78/237] Building CXX object common/CMakeFiles/llama-common-base.dir/build-info.cpp.o
+[79/237] Linking CXX static library common/libllama-common-base.a
+[80/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/parsers.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[81/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/cohere2moe.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/cohere2moe.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[82/237] Building CXX object src/CMakeFiles/llama.dir/unicode.cpp.o
+[83/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/functionary-v3-2.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/functionary-v3-2.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[84/237] Building CXX object src/CMakeFiles/llama.dir/llama-model.cpp.o
+[85/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/deepseek.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/deepseek.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[86/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/gemma4.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/gemma4.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[87/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/gigachat-v3.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/gigachat-v3.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[88/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/gpt-oss.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/gpt-oss.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[89/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/harmony-xml.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/harmony-xml.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[90/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/k2-horizon.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/k2-horizon.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[91/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/kimi-k2.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/kimi-k2.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[92/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/kimi-k3.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/kimi-k3.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[93/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/ling3.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/ling3.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[94/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/llm-jp-harmony.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/llm-jp-harmony.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[95/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/lfm2.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/lfm2.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[96/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/minimax-m3.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/minimax-m3.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[97/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/ministral3.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/ministral3.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[98/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/minicpm5.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/minicpm5.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[99/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/muse-glimmer.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/muse-glimmer.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[100/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/muse-spark.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/muse-spark.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[101/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/translate-gemma.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/translate-gemma.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[102/237] Building CXX object common/CMakeFiles/llama-common.dir/parsers/qwen3-coder.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/qwen3-coder.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/parsers/parsers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[103/237] Building CXX object common/CMakeFiles/llama-common.dir/chat-auto-parser-helpers.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser-helpers.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser-helpers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[104/237] Building CXX object common/CMakeFiles/llama-common.dir/chat-auto-parser-generator.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser-generator.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser-helpers.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[105/237] Building CXX object vendor/cpp-httplib/CMakeFiles/cpp-httplib.dir/httplib.cpp.o
+[106/237] Linking CXX static library vendor/cpp-httplib/libcpp-httplib.a
+[107/237] Building CXX object common/CMakeFiles/llama-common.dir/chat-peg-parser.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-peg-parser.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-peg-parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[108/237] Building CXX object common/CMakeFiles/llama-common.dir/console.cpp.o
+[109/237] Building CXX object common/CMakeFiles/llama-common.dir/common.cpp.o
+[110/237] Building CXX object common/CMakeFiles/llama-common.dir/debug.cpp.o
+[111/237] Building CXX object common/CMakeFiles/llama-common.dir/chat.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[112/237] Building CXX object common/CMakeFiles/llama-common.dir/file-lock.cpp.o
+[113/237] Building CXX object common/CMakeFiles/llama-common.dir/chat-diff-analyzer.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-diff-analyzer.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat-auto-parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[114/237] Building CXX object common/CMakeFiles/llama-common.dir/fit.cpp.o
+[115/237] Building CXX object common/CMakeFiles/llama-common.dir/imatrix-loader.cpp.o
+[116/237] Building CXX object common/CMakeFiles/llama-common.dir/hf-cache.cpp.o
+[117/237] Building CXX object common/CMakeFiles/llama-common.dir/json-schema.cpp.o
+[118/237] Building CXX object common/CMakeFiles/llama-common.dir/download.cpp.o
+[119/237] Building CXX object common/CMakeFiles/llama-common.dir/llguidance.cpp.o
+[120/237] Building CXX object common/CMakeFiles/llama-common.dir/log.cpp.o
+[121/237] Building CXX object common/CMakeFiles/llama-common.dir/arg.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/arg.cpp:4:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[122/237] Building CXX object common/CMakeFiles/llama-common.dir/ngram-cache.cpp.o
+[123/237] Building CXX object common/CMakeFiles/llama-common.dir/ngram-mod.cpp.o
+[124/237] Building CXX object common/CMakeFiles/llama-common.dir/ngram-map.cpp.o
+[125/237] Building CXX object common/CMakeFiles/llama-common.dir/json-schema-to-grammar.cpp.o
+[126/237] Building CXX object common/CMakeFiles/llama-common.dir/reasoning-budget.cpp.o
+[127/237] Building CXX object common/CMakeFiles/llama-common.dir/json.cpp.o
+[128/237] Building CXX object common/CMakeFiles/llama-common.dir/subproc.cpp.o
+[129/237] Building CXX object common/CMakeFiles/llama-common.dir/trie.cpp.o
+[130/237] Building CXX object common/CMakeFiles/llama-common.dir/sampling.cpp.o
+[131/237] Building CXX object common/CMakeFiles/llama-common.dir/unicode.cpp.o
+[132/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/lexer.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[133/237] Building CXX object common/CMakeFiles/llama-common.dir/preset.cpp.o
+[134/237] Building CXX object common/CMakeFiles/llama-common.dir/peg-parser.cpp.o
+[135/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/parser.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/parser.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[136/237] Building CXX object common/CMakeFiles/llama-common.dir/speculative.cpp.o
+[137/237] Provisioning UI assets
+CMake Warning at /home/runner/work/llama.cpp/llama.cpp/scripts/ui-assets.cmake:584 (message):
+  UI: no assets available - building without an embedded UI.  In a
+  disconnected environment, download the pre-built UI from a llama.cpp
+  release at https://github.com/ggml-org/llama.cpp/releases and extract to
+  tools/ui/dist.
+
+
+-- UI: embedded 0 assets
+[138/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/string.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/string.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/string.h:7:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[139/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/runtime.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/runtime.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[140/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/Unity/unity_3_cxx.cxx.o
+[141/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/Unity/unity_1_cxx.cxx.o
+[142/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/Unity/unity_2_cxx.cxx.o
+[143/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/Unity/unity_0_cxx.cxx.o
+[144/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/caps.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/caps.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/value.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/string.h:7:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[145/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd-image.cpp.o
+[146/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o
+[147/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o
+[148/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper-gen.cpp.o
+[149/237] Building CXX object tools/ui/CMakeFiles/llama-ui.dir/ui.cpp.o
+[150/237] Building CXX object common/CMakeFiles/llama-common.dir/jinja/value.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/value.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/runtime.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[151/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o
+[152/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-chat.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-chat.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-chat.h:5:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[153/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-queue.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-queue.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.h:12:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[154/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-common.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.cpp:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[155/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-task.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.h:12:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[156/237] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o
+[157/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-decision.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-decision.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-decision.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[158/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-stream.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-stream.cpp:2:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[159/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-realtime.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-realtime.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-realtime.h:4:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-queue.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.h:12:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[160/237] Linking CXX static library tools/ui/libllama-ui.a
+[161/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-mcp.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-mcp.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-mcp.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[162/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-schema.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-schema.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-schema.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[163/237] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-connect.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-connect.cpp:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[164/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-tools.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-tools.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-tools.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[165/237] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server.cpp:2:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-context.h:4:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.h:12:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[166/237] Building CXX object tools/server/CMakeFiles/server-context.dir/server-context.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-context.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-context.h:4:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-task.h:12:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[167/237] Building CXX object tools/batched-bench/CMakeFiles/llama-batched-bench-impl.dir/batched-bench.cpp.o
+[168/237] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models-sched.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-models-sched.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-models-sched.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[169/237] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-http.cpp:4:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[170/237] Building CXX object tools/quantize/CMakeFiles/llama-quantize-impl.dir/quantize.cpp.o
+[171/237] Building CXX object tools/completion/CMakeFiles/llama-completion-impl.dir/completion.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/completion/completion.cpp:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[172/237] Building CXX object tools/perplexity/CMakeFiles/llama-perplexity-impl.dir/perplexity.cpp.o
+[173/237] Building CXX object tools/cli/CMakeFiles/llama-cli-impl.dir/cli-client.cpp.o
+[174/237] Building CXX object tools/cli/CMakeFiles/llama-cli-impl.dir/cli.cpp.o
+[175/237] Building CXX object tools/batched-bench/CMakeFiles/llama-batched-bench.dir/main.cpp.o
+[176/237] Building CXX object tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o
+[177/237] Building CXX object tools/fit-params/CMakeFiles/llama-fit-params-impl.dir/fit-params.cpp.o
+[178/237] Building CXX object tools/llama-bench/CMakeFiles/llama-bench.dir/main.cpp.o
+[179/237] Building CXX object tools/completion/CMakeFiles/llama-completion.dir/main.cpp.o
+[180/237] Building CXX object tools/perplexity/CMakeFiles/llama-perplexity.dir/main.cpp.o
+[181/237] Building CXX object tools/quantize/CMakeFiles/llama-quantize.dir/main.cpp.o
+[182/237] Building CXX object tools/cli/CMakeFiles/llama-cli.dir/main.cpp.o
+[183/237] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[184/237] Building CXX object tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o
+[185/237] Building CXX object tools/cli/CMakeFiles/llama-cli-impl.dir/cli-context.cpp.o
+[186/237] Building CXX object tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o
+[187/237] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-models.cpp:1:
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/server/server-common.h:6:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[188/237] Building CXX object tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o
+[189/237] Building CXX object tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o
+[190/237] Building CXX object tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o
+[191/237] Building CXX object tools/llama-bench/CMakeFiles/llama-bench-impl.dir/llama-bench.cpp.o
+[192/237] Building CXX object tools/tts/CMakeFiles/llama-tts.dir/tts.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/tts/tts.cpp:2:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[193/237] Building CXX object tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o
+[194/237] Building CXX object tools/fit-params/CMakeFiles/llama-fit-params.dir/main.cpp.o
+[195/237] Building CXX object tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o
+[196/237] Building CXX object tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o
+[197/237] Building CXX object tools/mtmd/CMakeFiles/llama-mtmd-debug.dir/debug/mtmd-debug.cpp.o
+[198/237] Building CXX object app/CMakeFiles/llama-app.dir/__/license.cpp.o
+[199/237] Linking CXX executable bin/llama-llava-cli
+[200/237] Linking CXX executable bin/llama-gemma3-cli
+[201/237] Linking CXX executable bin/llama-minicpmv-cli
+[202/237] Linking CXX executable bin/llama-qwen2vl-cli
+[203/237] Building CXX object app/CMakeFiles/llama-app.dir/llama.cpp.o
+[204/237] Building CXX object tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o
+In file included from /home/runner/work/llama.cpp/llama.cpp/tools/mtmd/mtmd-cli.cpp:9:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./chat.h:7:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/parser.h:3:
+In file included from /home/runner/work/llama.cpp/llama.cpp/common/./jinja/lexer.h:3:
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:56:59: warning: implicit conversion from 'long long' to 'const size_t' (aka 'const unsigned int') changes value from 1099511628211 to 435 [-Wconstant-conversion]
+   56 |     static constexpr size_t prime = size_t_digits == 64 ? 0x100000001b3 : 0x01000193;
+      |                             ~~~~~                         ^~~~~~~~~~~~~
+/home/runner/work/llama.cpp/llama.cpp/common/./jinja/utils.h:57:58: warning: implicit conversion from 'unsigned long long' to 'const size_t' (aka 'const unsigned int') changes value from 14695981039346656037 to 2216829733 [-Wconstant-conversion]
+   57 |     static constexpr size_t seed = size_t_digits == 64 ? 0xcbf29ce484222325 : 0x811c9dc5;
+      |                             ~~~~                         ^~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[205/237] Building CXX object tools/results/CMakeFiles/llama-results.dir/results.cpp.o
+[206/237] Building CXX object app/CMakeFiles/llama-app.dir/download.cpp.o
+[207/237] Building CXX object src/CMakeFiles/llama.dir/unicode-data.cpp.o
+[208/237] Linking CXX shared library bin/libllama.so
+[209/237] Linking CXX shared library bin/libmtmd.so
+[210/237] Linking CXX shared library bin/libllama-common.so
+[211/237] Linking CXX shared library bin/libllama-completion-impl.so
+[212/237] Linking CXX shared library bin/libllama-perplexity-impl.so
+[213/237] Linking CXX shared library bin/libllama-batched-bench-impl.so
+[214/237] Linking CXX shared library bin/libllama-quantize-impl.so
+[215/237] Linking CXX shared library bin/libllama-bench-impl.so
+[216/237] Linking CXX static library tools/server/libserver-context.a
+[217/237] Linking CXX executable bin/llama-gguf-split
+[218/237] Linking CXX shared library bin/libllama-fit-params-impl.so
+[219/237] Linking CXX executable bin/llama-batched-bench
+[220/237] Linking CXX executable bin/llama-imatrix
+[221/237] Linking CXX executable bin/llama-bench
+[222/237] Linking CXX executable bin/llama-quantize
+[223/237] Linking CXX executable bin/llama-perplexity
+[224/237] Linking CXX executable bin/llama-completion
+[225/237] Linking CXX executable bin/llama-tokenize
+[226/237] Linking CXX executable bin/llama-tts
+[227/237] Linking CXX executable bin/llama-mtmd-cli
+[228/237] Linking CXX executable bin/llama-mtmd-debug
+[229/237] Linking CXX executable bin/llama-export-lora
+[230/237] Linking CXX executable bin/llama-fit-params
+[231/237] Linking CXX executable bin/llama-cvector-generator
+[232/237] Linking CXX executable bin/llama-results
+[233/237] Linking CXX shared library bin/libllama-server-impl.so
+[234/237] Linking CXX executable bin/llama-server
+[235/237] Linking CXX shared library bin/libllama-cli-impl.so
+[236/237] Linking CXX executable bin/llama-cli
+[237/237] Linking CXX executable bin/llama
 === Verification ELF ===
-Cible absente : llama-cli
-Cible absente : llama-server
-Cible absente : llama-bench
-Cible absente : llama-quantize
+== build/bin/llama-cli
+  [OK]   ELF32
+  [OK]   little endian
+  [OK]   machine ARM
+  [OK]   absence d'AArch64
+  Dependances :
+    - libllama-cli-impl.so (INCONNUE)
+    - libllama-server-impl.so (INCONNUE)
+    - libmtmd.so (INCONNUE)
+    - libllama-common.so (INCONNUE)
+    - libllama.so (INCONNUE)
+    - libggml.so (INCONNUE)
+    - libggml-cpu.so (INCONNUE)
+    - libggml-base.so (INCONNUE)
+    - libm.so (Android)
+    - libdl.so (Android)
+    - libc.so (Android)
+  [OK]   fichier non vide
+== build/bin/llama-server
+  [OK]   ELF32
+  [OK]   little endian
+  [OK]   machine ARM
+  [OK]   absence d'AArch64
+  Dependances :
+    - libllama-server-impl.so (INCONNUE)
+    - libllama-common.so (INCONNUE)
+    - libmtmd.so (INCONNUE)
+    - libllama.so (INCONNUE)
+    - libggml.so (INCONNUE)
+    - libggml-cpu.so (INCONNUE)
+    - libggml-base.so (INCONNUE)
+    - libm.so (Android)
+    - libdl.so (Android)
+    - libc.so (Android)
+  [OK]   fichier non vide
+== build/bin/llama-bench
+  [OK]   ELF32
+  [OK]   little endian
+  [OK]   machine ARM
+  [OK]   absence d'AArch64
+  Dependances :
+    - libllama-bench-impl.so (INCONNUE)
+    - libllama-common.so (INCONNUE)
+    - libllama.so (INCONNUE)
+    - libggml.so (INCONNUE)
+    - libggml-cpu.so (INCONNUE)
+    - libggml-base.so (INCONNUE)
+    - libm.so (Android)
+    - libdl.so (Android)
+    - libc.so (Android)
+  [OK]   fichier non vide
+== build/bin/llama-quantize
+  [OK]   ELF32
+  [OK]   little endian
+  [OK]   machine ARM
+  [OK]   absence d'AArch64
+  Dependances :
+    - libllama-quantize-impl.so (INCONNUE)
+    - libllama-common.so (INCONNUE)
+    - libllama.so (INCONNUE)
+    - libggml.so (INCONNUE)
+    - libggml-cpu.so (INCONNUE)
+    - libggml-base.so (INCONNUE)
+    - libm.so (Android)
+    - libdl.so (Android)
+    - libc.so (Android)
+  [OK]   fichier non vide
 Test de lancement reel non execute sur le runner (bionic/Android).
 pkg:
 total 12
-drwxr-xr-x  3 runner runner 4096 Nov  7 18:55 .
-drwxr-xr-x 32 runner runner 4096 Nov  7 18:55 ..
-drwxr-xr-x  3 runner runner 4096 Nov  7 18:55 llama.cpp-armv7-minimal
+drwxr-xr-x  3 runner runner 4096 Nov  7 19:02 .
+drwxr-xr-x 32 runner runner 4096 Nov  7 19:02 ..
+drwxr-xr-x  3 runner runner 4096 Nov  7 19:02 llama.cpp-armv7-minimal
 
 pkg/llama.cpp-armv7-minimal:
-total 72
-drwxr-xr-x 3 runner runner  4096 Nov  7 18:55 .
-drwxr-xr-x 3 runner runner  4096 Nov  7 18:55 ..
--rw-r--r-- 1 runner runner  2877 Nov  7 18:55 README-TERMUX.md
--rw-r--r-- 1 runner runner     0 Nov  7 18:55 SHA256SUMS
-drwxr-xr-x 2 runner runner  4096 Nov  7 18:55 bin
--rw-r--r-- 1 runner runner   246 Nov  7 18:55 build-info.txt
--rw-r--r-- 1 runner runner 45912 Nov  7 18:55 build-log.txt
--rw-r--r-- 1 runner runner     0 Nov  7 18:55 dependencies.txt
--rw-r--r-- 1 runner runner  1121 Nov  7 18:55 termux-test.sh
+total 164
+drwxr-xr-x 3 runner runner   4096 Nov  7 19:02 .
+drwxr-xr-x 3 runner runner   4096 Nov  7 19:02 ..
+-rw-r--r-- 1 runner runner   2877 Nov  7 19:02 README-TERMUX.md
+-rw-r--r-- 1 runner runner    330 Nov  7 19:02 SHA256SUMS
+drwxr-xr-x 2 runner runner   4096 Nov  7 19:02 bin
+-rw-r--r-- 1 runner runner    246 Nov  7 19:02 build-info.txt
+-rw-r--r-- 1 runner runner 133648 Nov  7 19:02 build-log.txt
+-rw-r--r-- 1 runner runner   2310 Nov  7 19:02 dependencies.txt
+-rw-r--r-- 1 runner runner   1121 Nov  7 19:02 termux-test.sh
 
 pkg/llama.cpp-armv7-minimal/bin:
-total 8
-drwxr-xr-x 2 runner runner 4096 Nov  7 18:55 .
-drwxr-xr-x 3 runner runner 4096 Nov  7 18:55 ..
-fin : 2026-11-07T18:55:21Z | conclusion configure/build ci-dessus
+total 40
+drwxr-xr-x 2 runner runner 4096 Nov  7 19:02 .
+drwxr-xr-x 3 runner runner 4096 Nov  7 19:02 ..
+-rwxr-xr-x 1 runner runner 5412 Nov  7 19:02 llama-bench
+-rwxr-xr-x 1 runner runner 5436 Nov  7 19:02 llama-cli
+-rwxr-xr-x 1 runner runner 5420 Nov  7 19:02 llama-quantize
+-rwxr-xr-x 1 runner runner 5436 Nov  7 19:02 llama-server
+fin : 2026-11-07T19:02:57Z | conclusion configure/build ci-dessus
