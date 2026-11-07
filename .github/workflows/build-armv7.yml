@@ -110,12 +110,14 @@ jobs:
         run: |
           case "$VARIANT" in
             minimal)
-              echo "neon=OFF" >> "$GITHUB_OUTPUT"
+              # Le toolchain NDK 27 refuse ANDROID_ARM_NEON=OFF : on retire NEON par le flag FPU.
+              # Ce flag est place apres celui du toolchain, il est donc prioritaire.
+              echo "cflags=-mfpu=vfpv3-d16" >> "$GITHUB_OUTPUT"
               echo "zip=llama.cpp-armv7-release.zip" >> "$GITHUB_OUTPUT"
               echo "description=Build A minimal CPU, sans NEON, sans OpenMP" >> "$GITHUB_OUTPUT"
               ;;
             neon)
-              echo "neon=ON" >> "$GITHUB_OUTPUT"
+              echo "cflags=-mfpu=neon-vfpv4" >> "$GITHUB_OUTPUT"
               echo "zip=llama.cpp-armv7-neon-experimental.zip" >> "$GITHUB_OUTPUT"
               echo "description=Build B CPU avec NEON (experimental)" >> "$GITHUB_OUTPUT"
               ;;
@@ -124,10 +126,12 @@ jobs:
       - name: 4. Configuration CMake
         run: |
           cmake -S . -B build -G Ninja \
+            -DCMAKE_MAKE_PROGRAM="$(command -v ninja)" \
             -DCMAKE_TOOLCHAIN_FILE="${ANDROID_NDK}/build/cmake/android.toolchain.cmake" \
             -DANDROID_ABI="${ANDROID_ABI}" \
             -DANDROID_PLATFORM="${ANDROID_PLATFORM}" \
-            -DANDROID_ARM_NEON=${{ steps.variant.outputs.neon }} \
+            -DCMAKE_C_FLAGS="${{ steps.variant.outputs.cflags }}" \
+            -DCMAKE_CXX_FLAGS="${{ steps.variant.outputs.cflags }}" \
             -DCMAKE_BUILD_TYPE=Release \
             -DGGML_NATIVE=OFF \
             -DGGML_OPENMP=OFF \
@@ -145,6 +149,10 @@ jobs:
             -DLLAMA_FATAL_WARNINGS=OFF
           echo "Options de flottants generees :"
           grep -rhoE "mfpu=[^ ]+|march=[^ ]+|mfloat-abi=[^ ]+" build --include=flags.make | sort | uniq -c
+          if [ "${{ matrix.variant }}" = "minimal" ] && grep -rq -- "-mfpu=neon" build --include=flags.make; then
+            echo "ERREUR : la variante minimale contient encore -mfpu=neon"
+            exit 1
+          fi
 
       - name: 5. Compilation
         run: |
