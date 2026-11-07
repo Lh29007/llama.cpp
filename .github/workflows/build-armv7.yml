@@ -154,6 +154,8 @@ jobs:
               -DCMAKE_C_FLAGS="${{ steps.variant.outputs.cflags }}" \
               -DCMAKE_CXX_FLAGS="${{ steps.variant.outputs.cflags }}" \
               -DCMAKE_BUILD_TYPE=Release \
+              -DBUILD_SHARED_LIBS=OFF \
+              -DANDROID_STL=c++_static \
               -DGGML_NATIVE=OFF \
               -DGGML_OPENMP=OFF \
               -DGGML_CUDA=OFF \
