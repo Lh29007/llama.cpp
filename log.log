@@ -1,0 +1,736 @@
+=== build-armv7 | variante minimal | commit 665ab12b4fad128d07b88f26374428a879d345e9 | run 42403608609 ===
+debut : 2026-11-07T18:54:54Z
+Linux runnervm7aw5e 7.0.0-1017-azure #17~24.04.1-Ubuntu SMP PREEMPT Thu Sep 24 18:46:57 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+4
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       998Mi        13Gi        45Mi       1.1Gi        14Gi
+Swap:          3.0Gi          0B       3.0Gi
+cmake version 3.31.6
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+1.13.2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       145G   59G   86G  41% /
+WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Use Android CLI instead.
+The 'android' binary can also be found in the cmdline-tools directory, and 'android sdk' is the replacement for 'sdkmanager'.
+To learn more about the Android CLI and how to use it, see the documentation (https://d.android.com/tools/agents/android-cli)
+
+Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 7% Fetch remote repository...         [==                                     ] 7% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 10% Computing updates...              [===                                    ] 10% Installing NDK (Side by side) 27.2[===                                    ] 10% Downloading android-ndk-r27c-linux[====                                   ] 10% Downloading android-ndk-r27c-linux[====                                   ] 11% Downloading android-ndk-r27c-linux[====                                   ] 12% Downloading android-ndk-r27c-linux[=====                                  ] 13% Downloading android-ndk-r27c-linux[=====                                  ] 14% Downloading android-ndk-r27c-linux[=====                                  ] 15% Downloading android-ndk-r27c-linux[======                                 ] 15% Downloading android-ndk-r27c-linux[======                                 ] 16% Downloading android-ndk-r27c-linux[======                                 ] 17% Downloading android-ndk-r27c-linux[=======                                ] 18% Downloading android-ndk-r27c-linux[=======                                ] 19% Downloading android-ndk-r27c-linux[=======                                ] 20% Downloading android-ndk-r27c-linux[========                               ] 20% Downloading android-ndk-r27c-linux[========                               ] 21% Downloading android-ndk-r27c-linux[========                               ] 22% Downloading android-ndk-r27c-linux[=========                              ] 23% Downloading android-ndk-r27c-linux[=========                              ] 24% Downloading android-ndk-r27c-linux[=========                              ] 25% Downloading android-ndk-r27c-linux[==========                             ] 25% Downloading android-ndk-r27c-linux[==========                             ] 26% Downloading android-ndk-r27c-linux[==========                             ] 27% Downloading android-ndk-r27c-linux[===========                            ] 28% Downloading android-ndk-r27c-linux[===========                            ] 29% Downloading android-ndk-r27c-linux[===========                            ] 30% Downloading android-ndk-r27c-linux[============                           ] 30% Downloading android-ndk-r27c-linux[============                           ] 31% Downloading android-ndk-r27c-linux[============                           ] 32% Downloading android-ndk-r27c-linux[============                           ] 33% Downloading android-ndk-r27c-linux[============                           ] 33% Unzipping...                      [============                           ] 33% Unzipping... android-ndk-r27c/    [============                           ] 33% Unzipping... android-ndk-r27c/READ[=============                          ] 33% Unzipping... android-ndk-r27c/READ[=============                          ] 33% Unzipping... android-ndk-r27c/meta[=============                          ] 33% Unzipping... android-ndk-r27c/shad[=============                          ] 33% Unzipping... android-ndk-r27c/ndk-[=============                          ] 33% Unzipping... android-ndk-r27c/wrap[=============                          ] 33% Unzipping... android-ndk-r27c/ndk-[=============                          ] 33% Unzipping... android-ndk-r27c/tool[=============                          ] 34% Unzipping... android-ndk-r27c/tool[=============                          ] 35% Unzipping... android-ndk-r27c/tool[==============                         ] 35% Unzipping... android-ndk-r27c/tool[==============                         ] 36% Unzipping... android-ndk-r27c/tool[==============                         ] 37% Unzipping... android-ndk-r27c/tool[===============                        ] 38% Unzipping... android-ndk-r27c/tool[===============                        ] 39% Unzipping... android-ndk-r27c/tool[===============                        ] 40% Unzipping... android-ndk-r27c/tool[================                       ] 40% Unzipping... android-ndk-r27c/tool[================                       ] 41% Unzipping... android-ndk-r27c/tool[================                       ] 42% Unzipping... android-ndk-r27c/tool[=================                      ] 43% Unzipping... android-ndk-r27c/tool[=================                      ] 44% Unzipping... android-ndk-r27c/tool[=================                      ] 45% Unzipping... android-ndk-r27c/tool[==================                     ] 45% Unzipping... android-ndk-r27c/tool[==================                     ] 46% Unzipping... android-ndk-r27c/tool[==================                     ] 47% Unzipping... android-ndk-r27c/tool[===================                    ] 48% Unzipping... android-ndk-r27c/tool[===================                    ] 49% Unzipping... android-ndk-r27c/tool[===================                    ] 50% Unzipping... android-ndk-r27c/tool[====================                   ] 50% Unzipping... android-ndk-r27c/tool[====================                   ] 51% Unzipping... android-ndk-r27c/tool[====================                   ] 52% Unzipping... android-ndk-r27c/tool[=====================                  ] 53% Unzipping... android-ndk-r27c/tool[=====================                  ] 54% Unzipping... android-ndk-r27c/tool[=====================                  ] 54% Unzipping... android-ndk-r27c/buil[=====================                  ] 54% Unzipping... android-ndk-r27c/sour[=====================                  ] 54% Unzipping... android-ndk-r27c/NOTI[=====================                  ] 54% Unzipping... android-ndk-r27c/ndk-[=====================                  ] 54% Unzipping... android-ndk-r27c/NOTI[=====================                  ] 54% Unzipping... android-ndk-r27c/pyth[=====================                  ] 54% Unzipping... android-ndk-r27c/preb[=====================                  ] 54% Unzipping... android-ndk-r27c/ndk-[=====================                  ] 54% Unzipping... android-ndk-r27c/sour[=====================                  ] 54% Unzipping... android-ndk-r27c/simp[=====================                  ] 55% Unzipping... android-ndk-r27c/simp[=====================                  ] 55% Unzipping... android-ndk-r27c/CHAN[=======================================] 100% Unzipping... android-ndk-r27c/CHA
+
+aarch64-linux-android21-clang
+aarch64-linux-android22-clang
+aarch64-linux-android23-clang
+aarch64-linux-android24-clang
+aarch64-linux-android25-clang
+aarch64-linux-android26-clang
+aarch64-linux-android27-clang
+aarch64-linux-android28-clang
+aarch64-linux-android29-clang
+aarch64-linux-android30-clang
+aarch64-linux-android31-clang
+aarch64-linux-android32-clang
+aarch64-linux-android33-clang
+aarch64-linux-android34-clang
+aarch64-linux-android35-clang
+armv7a-linux-androideabi21-clang
+armv7a-linux-androideabi22-clang
+armv7a-linux-androideabi23-clang
+armv7a-linux-androideabi24-clang
+armv7a-linux-androideabi25-clang
+armv7a-linux-androideabi26-clang
+armv7a-linux-androideabi27-clang
+armv7a-linux-androideabi28-clang
+armv7a-linux-androideabi29-clang
+armv7a-linux-androideabi30-clang
+armv7a-linux-androideabi31-clang
+armv7a-linux-androideabi32-clang
+armv7a-linux-androideabi33-clang
+armv7a-linux-androideabi34-clang
+armv7a-linux-androideabi35-clang
+clang
+i686-linux-android21-clang
+i686-linux-android22-clang
+i686-linux-android23-clang
+i686-linux-android24-clang
+i686-linux-android25-clang
+i686-linux-android26-clang
+i686-linux-android27-clang
+i686-linux-android28-clang
+i686-linux-android29-clang
+i686-linux-android30-clang
+i686-linux-android31-clang
+i686-linux-android32-clang
+i686-linux-android33-clang
+i686-linux-android34-clang
+i686-linux-android35-clang
+llvm-readelf
+llvm-strip
+riscv64-linux-android35-clang
+x86_64-linux-android21-clang
+x86_64-linux-android22-clang
+x86_64-linux-android23-clang
+x86_64-linux-android24-clang
+x86_64-linux-android25-clang
+x86_64-linux-android26-clang
+x86_64-linux-android27-clang
+x86_64-linux-android28-clang
+x86_64-linux-android29-clang
+x86_64-linux-android30-clang
+x86_64-linux-android31-clang
+x86_64-linux-android32-clang
+x86_64-linux-android33-clang
+x86_64-linux-android34-clang
+x86_64-linux-android35-clang
+Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/lib/android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin
+Valeurs par defaut du toolchain pour armeabi-v7a :
+110:  if(ANDROID_ABI STREQUAL "armeabi-v7a with NEON")
+129:if(DEFINED ANDROID_ARM_NEON AND NOT ANDROID_ARM_NEON)
+130:  message(FATAL_ERROR "Disabling Neon is no longer supported")
+134:  set(CMAKE_ANDROID_ARM_NEON TRUE)
+249:  ANDROID_ARM_NEON
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- The C compiler identification is Clang 18.0.3
+-- The CXX compiler identification is Clang 18.0.3
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Detecting C compiler ABI info
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-00w8SD/CMakeLists.txt:2 (project)
+
+
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/local/lib/android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JY0NhJ/CMakeLists.txt:2 (project)
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/local/lib/android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- llama.cpp version: 0.9.0-dev
+CMAKE_BUILD_TYPE=Release
+-- Found Git: /usr/bin/git (found version "2.56.0")
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /usr/local/lib/android/sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Setting GGML_NATIVE_DEFAULT to OFF
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kImsRx/CMakeLists.txt:3 (project)
+
+
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-3u2LE5/CMakeLists.txt:3 (project)
+
+
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with GGML_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: armv7-a
+-- GGML_SYSTEM_ARCH: ARM
+-- Including CPU backend
+-- ARM detected
+-- Performing Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-wUIuzQ/CMakeLists.txt:3 (project)
+
+
+-- Performing Test GGML_COMPILER_SUPPORTS_FP16_FORMAT_I3E - Failed
+-- Checking for ARM features using flags:
+-- Performing Test HAVE_DOTPROD
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-0eSUG9/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_DOTPROD - Failed
+-- Performing Test HAVE_SVE
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-04VkTx/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_SVE - Failed
+-- Performing Test HAVE_MATMUL_INT8
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-LaIxAv/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_MATMUL_INT8 - Failed
+-- Performing Test HAVE_FMA
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-uoRuOO/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_FMA - Failed
+-- Performing Test HAVE_FP16_VECTOR_ARITHMETIC
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HfWlNQ/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_FP16_VECTOR_ARITHMETIC - Failed
+-- Performing Test HAVE_SME
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-apumIk/CMakeLists.txt:3 (project)
+
+
+-- Performing Test HAVE_SME - Failed
+-- Adding CPU backend variant ggml-cpu:  
+-- ggml version: 0.29.0
+-- ggml commit:  665ab12
+-- Looking for pthread_create in pthreads
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-hpooDv/CMakeLists.txt:3 (project)
+
+
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/android.toolchain.cmake:55 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/3.31.6/CMakeSystem.cmake:6 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+
+
+CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.2.12479018/build/cmake/flags.cmake:18 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang.cmake:23 (include)
+  /usr/local/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake:1 (include)
+  /usr/local/share/cmake-3.31/Modules/CMakeCInformation.cmake:48 (include)
+  /home/runner/work/llama.cpp/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HADIjN/CMakeLists.txt:3 (project)
+
+
+-- Looking for pthread_create in pthread - not found
+-- Disabling MTMD_VIDEO because LLAMA_SUBPROCESS is OFF
+-- Generating embedded license file for target: llama-app
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/runner/work/llama.cpp/llama.cpp/build
+Options de flottants generees :
+=== Verification ELF ===
+Cible absente : llama-cli
+Cible absente : llama-server
+Cible absente : llama-bench
+Cible absente : llama-quantize
+Test de lancement reel non execute sur le runner (bionic/Android).
+pkg:
+total 12
+drwxr-xr-x  3 runner runner 4096 Nov  7 18:55 .
+drwxr-xr-x 32 runner runner 4096 Nov  7 18:55 ..
+drwxr-xr-x  3 runner runner 4096 Nov  7 18:55 llama.cpp-armv7-minimal
+
+pkg/llama.cpp-armv7-minimal:
+total 72
+drwxr-xr-x 3 runner runner  4096 Nov  7 18:55 .
+drwxr-xr-x 3 runner runner  4096 Nov  7 18:55 ..
+-rw-r--r-- 1 runner runner  2877 Nov  7 18:55 README-TERMUX.md
+-rw-r--r-- 1 runner runner     0 Nov  7 18:55 SHA256SUMS
+drwxr-xr-x 2 runner runner  4096 Nov  7 18:55 bin
+-rw-r--r-- 1 runner runner   246 Nov  7 18:55 build-info.txt
+-rw-r--r-- 1 runner runner 45912 Nov  7 18:55 build-log.txt
+-rw-r--r-- 1 runner runner     0 Nov  7 18:55 dependencies.txt
+-rw-r--r-- 1 runner runner  1121 Nov  7 18:55 termux-test.sh
+
+pkg/llama.cpp-armv7-minimal/bin:
+total 8
+drwxr-xr-x 2 runner runner 4096 Nov  7 18:55 .
+drwxr-xr-x 3 runner runner 4096 Nov  7 18:55 ..
+fin : 2026-11-07T18:55:21Z | conclusion configure/build ci-dessus
